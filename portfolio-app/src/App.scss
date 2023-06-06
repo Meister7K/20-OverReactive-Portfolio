@@ -1,25 +1,16 @@
 #root {
-  max-width: 1280px;
+  max-width: 100dvw;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
-  cursor: none;
 }
 
 .logo {
   height: 6em;
-  padding: 1.5em;
   will-change: filter;
-  transition: filter 300ms;
+  transition: filter 1000ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+  filter: drop-shadow(0 0 2em white);
 }
 
 .card {
@@ -28,4 +19,11 @@
 
 ul{
   list-style: none;
+}
+
+li{
+  list-style: none;
+}
+img{
+  max-width: 100dvw;
 }

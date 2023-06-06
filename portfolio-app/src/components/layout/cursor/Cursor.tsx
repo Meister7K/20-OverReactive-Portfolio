@@ -49,15 +49,15 @@ function Cursor(){
         toggleCursorSize();
     }
 
-    const mouseEnter = ()=>{
-        cursorEnlarge.current = true;
-        toggleCursorSize();
-    }
+    // const mouseEnter = ()=>{
+    //     cursorEnlarge.current = true;
+    //     toggleCursorSize();
+    // }
 
-    const mouseLeave = ()=>{
-        cursorEnlarge.current = false;
-        toggleCursorSize();
-    }
+    // const mouseLeave = ()=>{
+    //     cursorEnlarge.current = false;
+    //     toggleCursorSize();
+    // }
 
     const mouseMoveEvent =(e:any)=>{
         cursorVisible.current = true;
@@ -105,7 +105,9 @@ function Cursor(){
 
 return(
     <>
-    <div ref={dotOutline}className="cursor-outline"/>
+    <div ref={dotOutline}className="cursor-outline" id='1'/>
+    {/* <div ref={dotOutline}className="cursor-outline" id='2'/>
+    <div ref={dotOutline}className="cursor-outline" id='3'/> */}
     <div ref={dot} className="cursor-main"/>
     </>)
     }
