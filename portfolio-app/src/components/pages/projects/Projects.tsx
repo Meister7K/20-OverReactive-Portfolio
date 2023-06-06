@@ -75,6 +75,7 @@ function Projects() {
   return (
     <>
     <h1>Projects</h1>
+    <br/>
     <Lead projectList={projectList}/>
     <List projectList={projectList}/>
     </>

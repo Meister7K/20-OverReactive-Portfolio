@@ -97,7 +97,7 @@ function Cursor(){
         dotOutline.current.style.top = _y.current + 'px';
         dotOutline.current.style.left = _x.current + 'px';
         dotOutline.current.style.filter = `hue-rotate(${_x.current + _y.current}deg) blur(5px)`;
-        dot.current.style.filter = `hue-rotate(${_x.current + _y.current}deg) `;
+        dot.current.style.filter = `hue-rotate(${_x.current + _y.current}deg)`;
 
         reqRef.current = requestAnimationFrame(animateDotOutline);
     }

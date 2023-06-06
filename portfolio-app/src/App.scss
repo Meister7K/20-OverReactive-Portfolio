@@ -5,12 +5,13 @@
 }
 
 .logo {
-  height: 6em;
+  height: 5em;
   will-change: filter;
   transition: filter 1000ms;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em white);
+  transform: rotate(180deg) ;
 }
 
 .card {
@@ -27,4 +28,21 @@ li{
 }
 img{
   max-width: 100dvw;
+}
+
+h1{
+  font-size: 7dvw;
+  font-style: italic;
+  margin:0;
+  transform: translateY(-100%);
+  animation: slideDown 1.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+
+
+
+@keyframes slideDown {
+  to{
+      transform:translateY(0);
+  }
+  
 }
