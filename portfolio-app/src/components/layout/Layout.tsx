@@ -1,5 +1,6 @@
 import "./Layout.scss"
 import {useState} from 'react'
+import Cursor from './cursor/Cursor'
 import Header from './header/Header'
 import Footer from './footer/Footer'
 import Home from '../pages/home/Home'
@@ -21,12 +22,17 @@ function Layout(){
 
     const handlePageChange =(page:any)=>setPage(page);
 
+  
+
     return(
+        <>
+        <Cursor/>
     <div className="layout">
         <Header currentPage={currentPage} handlePageChange={handlePageChange} />
         {renderPage()}
         <Footer/>
-    </div>
+    </div></>
+        
     )
 }
 

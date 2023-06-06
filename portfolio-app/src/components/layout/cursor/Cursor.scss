@@ -1,0 +1,25 @@
+
+.cursor-main,.cursor-outline{
+    pointer-events: none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.cursor-main{
+    width:8px;
+    height:8px;
+    background-color: lightcoral;
+    z-index: 10;
+}
+
+.cursor-outline{
+    width: 50px;
+    height: 50px;
+    border: 5px solid lightcoral;
+    z-index: 10;
+}
