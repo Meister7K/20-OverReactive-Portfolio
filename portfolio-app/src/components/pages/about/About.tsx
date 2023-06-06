@@ -14,7 +14,7 @@ function About() {
   return (
     <>
       <div className='about'>
-            <h2>About Me</h2>
+            <h1>About Me</h1>
             <img className='headshot' src={headshot} alt=''/>
             <p className='intro'>{profile.intro}</p>
             <br/>

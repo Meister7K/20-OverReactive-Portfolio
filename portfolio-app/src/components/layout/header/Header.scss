@@ -8,6 +8,7 @@
     background-color:rgb(56, 69, 70);
     box-shadow: 0px 3px  3px black;
     align-items: last baseline;
+    z-index: 1;
     @media(max-width: 612px){
         flex-direction: column;
         justify-content: center;
@@ -16,8 +17,9 @@
 }
 .title{
     display: flex;
+    width: 100%;
+    justify-content: center;
     white-space: nowrap;
-    
     color: rgb(19, 18, 18);
 }
 .logo{
@@ -26,16 +28,17 @@
 .nav{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100%;
     ul{
         width: 100%;
         display:flex;
-        justify-content: space-evenly;
+        padding-right: 15px;
+        
         li{
             width: 100%;
             display:flex;
-            justify-content: space-evenly;
+            
         }
         
 

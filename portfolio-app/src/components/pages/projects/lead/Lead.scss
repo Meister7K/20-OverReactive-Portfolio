@@ -1,0 +1,14 @@
+.lead{
+    li{
+        list-style: none;
+        }
+        span{
+            position: absolute;
+            color: red;
+            filter: opacity(.5);
+            transform: rotate(15deg);
+            border: 1px solid red;
+            border-radius: 3px;
+            z-index: 0;
+        }
+}

@@ -18,6 +18,7 @@ function Contact() {
   return (
     <>
       <div className="contact-form">
+        <h1>Contact</h1>
           <h2>Let's get in touch!</h2>
             <form ref={form} onSubmit={sendEmail}>
               <ul>

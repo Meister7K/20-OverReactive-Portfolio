@@ -15,6 +15,7 @@ function Header({ currentPage, handlePageChange }:any) {
           <img className="logo" src={logo} alt="logo" />
           <h1 className="h1">Karl Finkel</h1>
         </div>
+        
         <div className="nav">
           <ul>
             <li>

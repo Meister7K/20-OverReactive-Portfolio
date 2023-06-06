@@ -74,6 +74,7 @@ const projectList = [
 function Projects() {
   return (
     <>
+    <h1>Projects</h1>
     <Lead projectList={projectList}/>
     <List projectList={projectList}/>
     </>
