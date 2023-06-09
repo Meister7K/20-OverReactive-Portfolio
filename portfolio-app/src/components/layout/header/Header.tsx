@@ -36,6 +36,7 @@ function Header({ currentPage, handlePageChange }:any) {
                 className={
                   currentPage === "About" ? "nav-link active" : "nav-link"
                 }
+                
               >
                 About
               </a>
