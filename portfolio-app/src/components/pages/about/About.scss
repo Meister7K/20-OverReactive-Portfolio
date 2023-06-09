@@ -1,9 +1,12 @@
 .about{
-    max-width: 700px;
+   h1{
+    padding-bottom: 20px;
+   }
 
     .bio{
-        display: flex;
-        padding-inline: 20px;
+        
+        margin: 20px auto;
+       max-width: 700px;
     }
     img{
         width: 700px;

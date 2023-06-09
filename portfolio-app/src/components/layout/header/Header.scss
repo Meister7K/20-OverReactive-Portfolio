@@ -3,7 +3,7 @@
     top:0;
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 100dvw;
     align-items: last baseline;
     z-index: 1;
     justify-content: center;
@@ -29,17 +29,15 @@
     justify-content: space-evenly;
     width: 100%;
     ul{
-        margin: 0 auto;
+        margin: 0;
         padding: 0;
         display:flex;
-
-        
         li{
             width: 100%;
+            justify-content: space-evenly;
 
             
         }
-        
-
+    
     }
 }
